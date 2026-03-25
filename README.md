@@ -7,7 +7,7 @@
 
 [![中文](https://img.shields.io/badge/中文-README-blue.svg)](./README_CN.md)
 
-> Multi-Agent Reinforcement Learning (MARL) Training Framework based on Unity ML-Agents
+> Multi-Agent Reinforcement Learning (MARL) Training Framework based on Unity Environment
 
 This project wraps Unity environments as Python interfaces, integrated with the [XuanCe](https://github.com/agi-brain/xuance) deep reinforcement learning library, to implement training and evaluation of multi-agent reinforcement learning algorithms.
 
@@ -26,6 +26,7 @@ conda activate unity_xuance
 ### 2. Unity Environment Testing
 
 **macOS (Apple Silicon):**
+
 ```bash
 # AEC interface test
 python unity_wrapper/aec_env_test.py
@@ -35,6 +36,7 @@ python unity_wrapper/parallel_env_test.py
 ```
 
 **Windows:**
+
 ```bash
 # AEC interface test
 python unity_wrapper/aec_env_test.py
@@ -96,14 +98,14 @@ XuanCe library supports various algorithms:
 
 ## 📦 Core Dependencies
 
-| Package       | Version   | Purpose                    |
-| ------------- | --------- | -------------------------- |
-| Python        | 3.10      | Programming Language       |
-| PyTorch       | 2.5.1     | Deep Learning Framework    |
-| XuanCe        | 1.2.3     | RL Algorithm Library       |
-| mlagents-envs | 1.1.0     | Unity Environment Interface|
-| Gym/Gymnasium | 0.26/0.28 | Standard RL Environment API|
-| PettingZoo    | 1.24.3    | Multi-Agent Environment API|
+| Package       | Version   | Purpose                     |
+| ------------- | --------- | --------------------------- |
+| Python        | 3.10      | Programming Language        |
+| PyTorch       | 2.5.1     | Deep Learning Framework     |
+| XuanCe        | 1.2.3     | RL Algorithm Library        |
+| mlagents-envs | 1.1.0     | Unity Environment Interface |
+| Gym/Gymnasium | 0.26/0.28 | Standard RL Environment API |
+| PettingZoo    | 1.24.3    | Multi-Agent Environment API |
 
 ---
 

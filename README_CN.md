@@ -7,7 +7,7 @@
 
 [![English](https://img.shields.io/badge/English-README-blue.svg)](./README.md)
 
-> 基于 Unity ML-Agents 的多智能体强化学习 (MARL) 训练框架
+> 基于 Unity 环境的多智能体强化学习 (MARL) 训练框架
 
 本项目将 Unity 环境封装为 Python 接口，结合 [XuanCe](https://github.com/agi-brain/xuance) 深度强化学习库，实现多智能体强化学习算法的训练与评估。
 
@@ -26,6 +26,7 @@ conda activate unity_xuance
 ### 2. Unity 环境测试
 
 **macOS (Apple Silicon):**
+
 ```bash
 # AEC 接口测试
 python unity_wrapper/aec_env_test.py
@@ -35,6 +36,7 @@ python unity_wrapper/parallel_env_test.py
 ```
 
 **Windows:**
+
 ```bash
 # AEC 接口测试
 python unity_wrapper/aec_env_test.py
