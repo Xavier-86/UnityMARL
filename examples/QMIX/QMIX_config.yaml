@@ -40,7 +40,7 @@ use_parameter_sharing: False  # If to use parameter sharing for all agents' poli
 use_actions_mask: False  # If to use actions mask for unavailable actions.
 
 seed: 1  # Random seed.
-parallels: 2  # The number of environments to run in parallel.
+parallels: 1  # The number of environments to run in parallel.
 buffer_size: 3200  # Number of the transitions (use_rnn is False), or the episodes (use_rnn is True) in replay buffer.
 batch_size: 1 # Number of minibatch to sample and train.  batch_size = buffer_size // n_minibatch.
 learning_rate: 0.0007  # Learning rate.

@@ -8,6 +8,10 @@ from xuance.torch import Module, Tensor
 from xuance.torch.utils import ModuleType
 from .core import BasicQhead, BasicRecurrent, DuelQhead, C51Qhead, QRDQNhead, ActorNet, CriticNet
 
+"""
+This module defines several classes for different types of actor-networks, 
+Q-networks, and policies in a single-agent deep reinforcement learning setting.
+"""
 
 class BasicQnetwork(Module):
     """
